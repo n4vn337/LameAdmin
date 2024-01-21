@@ -1,6 +1,6 @@
 import "./home.scss";
-import { Sidebar, Navbar } from "../components";
-import { Widget } from "../components/widget/Widget";
+import { Sidebar, Navbar, Widget, Featured, Charts } from "../components";
+// import { Widget } from "../components/widget/Widget";
 export const Home = () => {
   return (
     <div className="home">
@@ -13,6 +13,10 @@ export const Home = () => {
           <Widget type="order" />
           <Widget type="earning" />
           <Widget type="balance" />
+        </div>
+        <div className="chartz">
+          <Featured />
+          <Charts />
         </div>
       </div>
     </div>

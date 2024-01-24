@@ -51,7 +51,7 @@ export const List = () => {
       customer: "Jane Smith",
       date: "1 March",
       amount: 920,
-      method: "Online",
+      method: "Online Payment",
       status: "Approved",
     },
     {
@@ -62,7 +62,7 @@ export const List = () => {
       customer: "Harold Carol",
       date: "1 March",
       amount: 2000,
-      method: "Online",
+      method: "Online Payment",
       status: "Pending",
     },
   ];

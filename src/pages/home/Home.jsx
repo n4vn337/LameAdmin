@@ -1,5 +1,12 @@
 import "./home.scss";
-import { Sidebar, Navbar, Widget, Featured, Charts } from "../components";
+import {
+  Sidebar,
+  Navbar,
+  Widget,
+  Featured,
+  Charts,
+  List,
+} from "../../components";
 // import { Widget } from "../components/widget/Widget";
 export const Home = () => {
   return (
@@ -17,6 +24,10 @@ export const Home = () => {
         <div className="chartz">
           <Featured />
           <Charts />
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">Latest Transactions</div>
+          <List />
         </div>
       </div>
     </div>

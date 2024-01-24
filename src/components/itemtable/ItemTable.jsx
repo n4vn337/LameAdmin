@@ -1,4 +1,4 @@
-import "./table.scss";
+import "./itemtable.scss";
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -8,7 +8,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 
-export const List = () => {
+export const ItemTable = () => {
   const rows = [
     {
       id: 1143155,

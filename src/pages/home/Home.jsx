@@ -5,7 +5,7 @@ import {
   Widget,
   Featured,
   Charts,
-  List,
+  ItemTable,
 } from "../../components";
 // import { Widget } from "../components/widget/Widget";
 export const Home = () => {
@@ -27,7 +27,7 @@ export const Home = () => {
         </div>
         <div className="listContainer">
           <div className="listTitle">Latest Transactions</div>
-          <List />
+          <ItemTable />
         </div>
       </div>
     </div>
